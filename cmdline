@@ -1,0 +1,238 @@
+1. perintah "ls" untuk melihat daftar 
+muhammad@muhammad-X441UAK:~$ ls
+Desktop    Downloads  Pictures        Public     Videos
+Documents  Music      praxis_academy  Templates
+
+2. perintah "rmdir" untuk menghapus direktori
+coba     Documents  Music     praxis_academy  Templates
+Desktop  Downloads  Pictures  Public          Videos
+muhammad@muhammad-X441UAK:~$ rmdir coba
+muhammad@muhammad-X441UAK:~$ ls
+Desktop    Downloads  Pictures        Public     Videos
+Documents  Music      praxis_academy  Templates
+
+3. perintah "mkdir" untuk membuat direktori
+muhammad@muhammad-X441UAK:~$ mkdir coba
+muhammad@muhammad-X441UAK:~$ ls
+coba     Documents  Music     praxis_academy  Templates
+Desktop  Downloads  Pictures  Public          Videos
+
+4. perintah "du"
+muhammad@muhammad-X441UAK:~$ du
+4	./.gnupg/private-keys-v1.d
+8	./.gnupg
+4	./.mozilla/extensions
+4	./.mozilla/systemextensionsdev
+64	./.mozilla/firefox/l8hmaclf.default-release/datareporting/archived/2019-08
+68	./.mozilla/firefox/l8hmaclf.default-release/datareporting/archived
+108	./.mozilla/firefox/l8hmaclf.default-release/datareporting
+40	./.mozilla/firefox/l8hmaclf.default-release/features/{60dd6f8f-de10-41b4-9f26-5f0a7df730b3}
+44	./.mozilla/firefox/l8hmaclf.default-release/features
+4	./.mozilla/firefox/l8hmaclf.default-release/bookmarkbackups
+4	./.mozilla/firefox/l8hmaclf.default-release/minidumps
+4	./.mozilla/firefox/l8hmaclf.default-release/crashes/events
+12	./.mozilla/firefox/l8hmaclf.default-release/crashes
+4	./.mozilla/firefox/l8hmaclf.default-release/extensions
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/temporary
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++www.guru99.com/idb/675301924bcaef_p.files
+52	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++www.guru99.com/idb
+60	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++www.guru99.com
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/1593787212uysretrs_irge.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/316976033mbudhfalm_mmaodcs.ull.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/4146128642msuthcaamtmnaodcseunl.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/1524795030msulhiaamtmeaddesgual.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/2766188252mduahoalmpmuatdnseuml.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/3800879197mhuchraamemsa_desnuil.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb/1858712442mauthaadm_mdaeddsduel.files
+388	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/idb
+328	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/248
+328	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/222
+172	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/167
+536	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/199
+316	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/184
+40	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/197
+328	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/24
+56	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/124
+388	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue/217
+2496	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache/morgue
+2576	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com/cache
+2972	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++mail.google.com
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++jalantikus.com/idb/993782502OBNDE__KSDISG_NLA.files
+52	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++jalantikus.com/idb
+60	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++jalantikus.com
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++pxlclnmdecom-a.akamaihd.net/idb/2532886276bta_fcpe_.files
+52	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++pxlclnmdecom-a.akamaihd.net/idb
+60	./.mozilla/firefox/l8hmaclf.default-release/storage/default/https+++pxlclnmdecom-a.akamaihd.net
+3156	./.mozilla/firefox/l8hmaclf.default-release/storage/default
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+4	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+2556	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome/idb
+2564	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent/chrome
+2568	./.mozilla/firefox/l8hmaclf.default-release/storage/permanent
+5732	./.mozilla/firefox/l8hmaclf.default-release/storage
+100	./.mozilla/firefox/l8hmaclf.default-release/sessionstore-backups
+44	./.mozilla/firefox/l8hmaclf.default-release/saved-telemetry-pings
+8	./.mozilla/firefox/l8hmaclf.default-release/weave/toFetch
+8	./.mozilla/firefox/l8hmaclf.default-release/weave/failed
+20	./.mozilla/firefox/l8hmaclf.default-release/weave
+23800	./.mozilla/firefox/l8hmaclf.default-release
+4	./.mozilla/firefox/Crash Reports/events
+12	./.mozilla/firefox/Crash Reports
+4	./.mozilla/firefox/Pending Pings
+8	./.mozilla/firefox/cz3t04wv.default
+23836	./.mozilla/firefox
+23848	./.mozilla
+8	./.local/share/icc
+4	./.local/share/nano
+12	./.local/share/keyrings
+4	./.local/share/cinnamon/applets
+4	./.local/share/cinnamon/extensions
+4	./.local/share/cinnamon/search_providers
+4	./.local/share/cinnamon/desklets
+20	./.local/share/cinnamon
+4	./.local/share/nemo/actions
+4	./.local/share/nemo/scripts
+12	./.local/share/nemo
+4	./.local/share/flatpak/repo/tmp/cache
+8	./.local/share/flatpak/repo/tmp
+4	./.local/share/flatpak/repo/refs/mirrors
+4	./.local/share/flatpak/repo/refs/remotes
+4	./.local/share/flatpak/repo/refs/heads
+16	./.local/share/flatpak/repo/refs
+4	./.local/share/flatpak/repo/objects
+4	./.local/share/flatpak/repo/extensions
+4	./.local/share/flatpak/repo/state
+44	./.local/share/flatpak/repo
+48	./.local/share/flatpak
+40	./.local/share/gvfs-metadata
+152	./.local/share
+156	./.local
+4	./Documents
+4	./Public
+4	./.gconf
+8	./.cinnamon/configs/printers@cinnamon.org
+8	./.cinnamon/configs/notifications@cinnamon.org
+16	./.cinnamon/configs/grouped-window-list@cinnamon.org
+8	./.cinnamon/configs/show-desktop@cinnamon.org
+8	./.cinnamon/configs/sound@cinnamon.org
+8	./.cinnamon/configs/calendar@cinnamon.org
+12	./.cinnamon/configs/menu@cinnamon.org
+8	./.cinnamon/configs/power@cinnamon.org
+80	./.cinnamon/configs
+84	./.cinnamon
+4	./Pictures
+4	./praxis_academy
+4	./Music
+4	./.config/autostart
+8	./.config/caja
+8	./.config/dconf
+4	./.config/enchant
+84	./.config/pulse
+8	./.config/qt5ct
+4	./.config/goa-1.0
+8	./.config/nemo
+4	./.config/cinnamon-session/saved-session
+8	./.config/cinnamon-session
+20	./.config/hexchat
+8	./.config/gtk-3.0
+4	./.config/menus/applications-merged
+8	./.config/menus
+184	./.config
+4	./Downloads
+4	./Desktop
+4	./.cache/obexd
+8	./.cache/mesa_shader_cache/f8
+8	./.cache/mesa_shader_cache/9e
+8	./.cache/mesa_shader_cache/8b
+8	./.cache/mesa_shader_cache/05
+8	./.cache/mesa_shader_cache/e2
+8	./.cache/mesa_shader_cache/97
+8	./.cache/mesa_shader_cache/91
+8	./.cache/mesa_shader_cache/1a
+12	./.cache/mesa_shader_cache/be
+8	./.cache/mesa_shader_cache/c3
+8	./.cache/mesa_shader_cache/ef
+8	./.cache/mesa_shader_cache/20
+8	./.cache/mesa_shader_cache/0d
+8	./.cache/mesa_shader_cache/7d
+8	./.cache/mesa_shader_cache/f0
+8	./.cache/mesa_shader_cache/49
+8	./.cache/mesa_shader_cache/ff
+8	./.cache/mesa_shader_cache/ac
+16	./.cache/mesa_shader_cache/96
+8	./.cache/mesa_shader_cache/b5
+8	./.cache/mesa_shader_cache/63
+240	./.cache/mesa_shader_cache
+164	./.cache/fontconfig
+4	./.cache/mozilla/firefox/l8hmaclf.default-release/cache2/doomed
+52628	./.cache/mozilla/firefox/l8hmaclf.default-release/cache2/entries
+52704	./.cache/mozilla/firefox/l8hmaclf.default-release/cache2
+364	./.cache/mozilla/firefox/l8hmaclf.default-release/thumbnails
+260	./.cache/mozilla/firefox/l8hmaclf.default-release/OfflineCache
+6528	./.cache/mozilla/firefox/l8hmaclf.default-release/safebrowsing/google4
+7268	./.cache/mozilla/firefox/l8hmaclf.default-release/safebrowsing
+20708	./.cache/mozilla/firefox/l8hmaclf.default-release/startupCache
+81308	./.cache/mozilla/firefox/l8hmaclf.default-release
+4	./.cache/mozilla/firefox/cz3t04wv.default
+81316	./.cache/mozilla/firefox
+81320	./.cache/mozilla
+4344	./.cache/flatpak/system-cache/summaries
+4348	./.cache/flatpak/system-cache
+4352	./.cache/flatpak
+384	./.cache/wallpaper
+8	./.cache/mintinstall
+86476	./.cache
+4	./Videos
+4	./Templates
+110864	.
+
+4.perintah "echo" untuk menampilkan baris teks
+muhammad@muhammad-X441UAK:~$ echo hallo
+hallo
+
+5.perintah "touch" untuk membuat file 
+muhammad@muhammad-X441UAK:~$ touch Music.txt
+muhammad@muhammad-X441UAK:~$ ls
+Desktop    Downloads  Music.txt  praxis_academy  Templates
+Documents  Music      Pictures   Public          Videos
+
+6.perintah "ps" untuk melihat proses yang sedang berjalan
+muhammad@muhammad-X441UAK:~$ ps
+  PID TTY          TIME CMD
+ 2205 pts/0    00:00:00 bash
+ 2472 pts/0    00:00:00 ps
+
+7.perintah "cd" untuk berpindah direktori
+muhammad@muhammad-X441UAK:~$ cd praxis_academy
+muhammad@muhammad-X441UAK:~/praxis_academy$ 
+
+8.perintah "find" untuk mencari direktori
+muhammad@muhammad-X441UAK:~$ find praxis_academy/
+praxis_academy/
+
+9.perintah "ping" untuk mengetes koneksi 
+muhammad@muhammad-X441UAK:~$ ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=48 time=31.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=48 time=32.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=48 time=30.6 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=48 time=30.5 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=48 time=30.9 ms
+64 bytes from 8.8.8.8: icmp_seq=6 ttl=48 time=30.6 ms
+64 bytes from 8.8.8.8: icmp_seq=7 ttl=48 time=30.7 ms
+^C
+--- 8.8.8.8 ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6009ms
+rtt min/avg/max/mdev = 30.571/31.157/32.602/0.768 ms
+
+10. perintah "sudo" untuk menjalankan perintah dengan hak akses root
+muhammad@muhammad-X441UAK:~$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-T timeout] [-u user] file ...
